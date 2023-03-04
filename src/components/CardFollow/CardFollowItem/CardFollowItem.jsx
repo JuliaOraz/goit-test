@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import head from "../../../image/card-head.png";
 import logo from "../../../image/card-logo.png";
 import {
@@ -22,6 +23,7 @@ const CardFollowItem = ({ users, onToggleFollowing, following }) => {
       const user = following.find((follow) => follow.id === id);
       return user ? user.followers : followers;
     };
+
     return (
       <CardItem key={id}>
         <CardHead>
@@ -60,6 +62,20 @@ const CardFollowItem = ({ users, onToggleFollowing, following }) => {
       </CardItem>
     );
   });
+};
+
+CardFollowItem.propTypes = {
+  users: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      user: PropTypes.string,
+      tweets: PropTypes.number,
+      followers: PropTypes.number,
+      avatar: PropTypes.string,
+    })
+  ),
+  onToggleFollowing: PropTypes.func.isRequired,
+  following: PropTypes.array.isRequired,
 };
 
 export default CardFollowItem;
