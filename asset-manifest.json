@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/goit-test/static/css/main.98d593b1.css",
+    "main.js": "/goit-test/static/js/main.68c0b6cb.js",
+    "static/js/787.0b4c2dfb.chunk.js": "/goit-test/static/js/787.0b4c2dfb.chunk.js",
+    "static/media/card-head.png": "/goit-test/static/media/card-head.a7bc75d9812c375b0ee5.png",
+    "index.html": "/goit-test/index.html",
+    "main.98d593b1.css.map": "/goit-test/static/css/main.98d593b1.css.map",
+    "main.68c0b6cb.js.map": "/goit-test/static/js/main.68c0b6cb.js.map",
+    "787.0b4c2dfb.chunk.js.map": "/goit-test/static/js/787.0b4c2dfb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98d593b1.css",
+    "static/js/main.68c0b6cb.js"
+  ]
+}
